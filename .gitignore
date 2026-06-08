@@ -1,6 +1,7 @@
 .idea
 *.iml
 .claude
+.local
 
 # Byte-compiled / optimized / DLL files
 __pycache__/
