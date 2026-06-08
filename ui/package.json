@@ -3,10 +3,14 @@
   "version": "1.0.0",
   "main": "index.js",
   "dependencies": {
-    "expo": "~56.0.9",
+    "expo": "^56.0.9",
+    "expo-dev-client": "~56.0.19",
     "expo-status-bar": "~56.0.4",
     "react": "19.2.3",
     "react-native": "0.85.3"
+  },
+  "devDependencies": {
+    "expo-dev-client": "^56.0.19"
   },
   "scripts": {
     "start": "expo start",

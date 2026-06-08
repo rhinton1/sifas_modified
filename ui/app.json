@@ -1,0 +1,25 @@
+{
+  "expo": {
+    "name": "SiFAS",
+    "slug": "sifas",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "platforms": ["ios", "android"],
+    "ios": {
+      "supportsTablet": true,
+      "bundleIdentifier": "com.sifas.app",
+      "infoPlist": {
+        "NSCameraUsageDescription": "SiFAS needs camera access for avatar creation and video conversations.",
+        "NSMicrophoneUsageDescription": "SiFAS needs microphone access for voice conversations."
+      }
+    },
+    "android": {
+      "package": "com.sifas.app",
+      "permissions": [
+        "android.permission.CAMERA",
+        "android.permission.RECORD_AUDIO"
+      ]
+    },
+    "plugins": []
+  }
+}
