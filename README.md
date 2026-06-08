@@ -10,3 +10,9 @@ React Native (Expo UI) ──► Mobile App
       ├── REST API ──► Django + DRF (Django REST Framework)
       │
 ```
+## Prerequisites
+
+| Tool | Version |
+|------|---------|
+| Python | 3.12+ |
+| Node.js | 20+ |
